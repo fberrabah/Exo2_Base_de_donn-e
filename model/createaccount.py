@@ -22,7 +22,7 @@ class Createaccount():
         self.email = input("Entrer votre email :").lower()
         self.age = input("Entrer votre age :").lower()
         self.password = input("Entrer votre mot de passe :").lower()
-        self.password = hashlib.sha1(b'').hexdigest()
+        self.password = hashlib.sha1(self.password.encode()).hexdigest()
         self.choice.cursor.execute("INSERT INTO users(name, firstname, pseudo, email, age, password) VALUES"
                                   "(%s, %s, %s, %s, %s, %s )" ,(self.name, self.firstname, self.pseudo,self.email, self.age, self.password))
         self.choice.connection.commit()
