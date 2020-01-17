@@ -2,6 +2,7 @@ from model.connection import *
 from model.connectaccount import *
 from model.createaccount import *
 from controller.verify import *
+from controller.profil import *
 import sys
 
 

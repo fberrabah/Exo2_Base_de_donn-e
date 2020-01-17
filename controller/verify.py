@@ -27,16 +27,14 @@ class Verify():
             for i in row:
                 if self.password == i:
                     self.password_ok = True
-                    return self.password_ok
+                    self.password_ok
 
 
     def check_password_pseudo(self):
-
+        
         if self.pseudo_ok == True and self.password_ok == True:
             space = Profil()
             space.view_profil()
-            print("OK")
-            print("bienvenue")
         else :
             print("erreur")
             return
