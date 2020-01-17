@@ -1,4 +1,5 @@
 from model.connectaccount import *
+from controller.profil import *
 
 class Verify():
     def __init__(self, p, pseudo, pwd, password):
@@ -30,8 +31,10 @@ class Verify():
 
 
     def check_password_pseudo(self):
-        
+
         if self.pseudo_ok == True and self.password_ok == True:
+            space = Profil()
+            space.view_profil()
             print("OK")
             print("bienvenue")
         else :
