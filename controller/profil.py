@@ -1,12 +1,16 @@
 import sys
 from controller.delete import *
 from controller.change import *   
+from view.loginView import *
 class Profil():
 
     def __init__(self, pseudo):
         self.pseudo = pseudo
 
     def view_profil(self):
+        r = Longinview()
+        r.read()
+       
         profilchoice = ""
         surchoice = ""
         print("\n---------------------------\n")
