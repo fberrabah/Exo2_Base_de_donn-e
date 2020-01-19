@@ -33,8 +33,8 @@ class Verify():
     def check_password_pseudo(self):
         
         if self.pseudo_ok == True and self.password_ok == True:
-            space = Profil()
+            space = Profil(self.pseudo)
             space.view_profil()
         else :
-            print("erreur")
+            print("Erreur sur le pseudo ou le mot de passe")
             return
