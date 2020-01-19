@@ -1,4 +1,4 @@
-# Python3 : Interagir avec une base de données via Python
+# Python3 : Interagir avec une base de données via    Python
 
 Dans cet exercice, vous allez simuler le fonctionnement d’un espace privé auquel les utilisateurs 
 accèdent grâce à leur compte personnel protégé par mot de passe. Vous allez ainsi travailler les 
