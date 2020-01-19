@@ -1,10 +1,10 @@
-Python3 : Interagir avec une base de données via Python
+# Python3 : Interagir avec une base de données via Python
 
 Dans cet exercice, vous allez simuler le fonctionnement d’un espace privé auquel les utilisateurs 
 accèdent grâce à leur compte personnel protégé par mot de passe. Vous allez ainsi travailler les 
 requêtes en bases de données, mais aussi la gestion des mots de passe
 
-Déroulement
+# Déroulement 
 
 - Une page d’accueil, qui permet à l’utilisateur de choisir entre se connecter avec un compte 
   existant ou se créer un compte
@@ -30,13 +30,14 @@ nécessaires. Une fois les informations rentrées, celles-ci sont enregistrées 
     - email (varchar maximum 250 caractères, unique, non nul) 
     - age (integer, non nul)
     - password (varchar de minimum 64 caractères, non nul
-
-Votre programme devra :
+    
+# Critères de qualité
+  Votre programme devra :
 
     un minimum stylisé
     Code structuré et commenté
 
-Bonus
+# Bonus
 
   Si vous souhaitez aller plus loin, vous pouvez également rajouter des vérifications de sécurité. Par 
   exemple:
@@ -46,6 +47,6 @@ Bonus
   - S’assurer que l’adresse mail est une adresse mail valide
   - Saler le mot de passe
 
-Ressources
+# Ressources 
 
         https://auth0.com/blog/adding-salt-to-hashing-a-better-way-to-store-passwords/
